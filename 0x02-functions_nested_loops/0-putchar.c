@@ -2,7 +2,7 @@
 /**
 * print_putchar - Prints "_putchar"
 *
-* Return: 0
+* Return: nothing
 */
 void print_putchar(void)
 {
