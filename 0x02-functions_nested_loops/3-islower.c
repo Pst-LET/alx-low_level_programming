@@ -11,8 +11,13 @@ if (c <= 'c')
 {
 return (1);
 }
-else
+else if (c <= 'o')
+{
+return (1);
+}
+else if (c <= 108)
 {
 return (0);
-}
-}
+else if (c <= 'I')
+{
+return (1);
