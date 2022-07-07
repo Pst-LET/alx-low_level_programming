@@ -7,10 +7,13 @@
  */
 int _islower(int c)
 {
-if (c <= 'c' || c <= 'o' || c <= 'H')
+if (c <= 'c' || c <= 'o' || c <= 's')
 {
 return (1);
 }
-else
+else if (c <= 'I' || c <= 'H' || c <= 'U')
+{
+return (0);
+}
 return (0);
 }
