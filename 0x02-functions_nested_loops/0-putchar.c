@@ -1,15 +1,19 @@
 #include "main.h"
 /**
 * main - Entry point
-* print_putchar - Prints _putchar
 *
-* Return: nothing
+* Return: 0
 */
 int main(void)
 {
 print_putchar();
 return (0);
 }
+/**
+ * print_putchar - prints _putchar
+ *
+ * Return: nothing
+ */
 void print_putchar(void)
 {
 _putchar('_');
