@@ -22,7 +22,9 @@ else if ((i%5) == 0)
 printf("Buzz\t");
 }
 else
+{
 printf("%d\t", i);
+}
 }
 return (0);
 }
