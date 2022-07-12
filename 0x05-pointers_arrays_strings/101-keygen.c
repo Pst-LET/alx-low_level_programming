@@ -10,6 +10,7 @@
 void randompswd(int n)
 {
 	int j = 0;
+	n = 0;
 	int shuffle = 0;
 
 	srand((unsigned int)(time (NULL)));
