@@ -1,8 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * puts2 - prints every other character of the string 
- * starting with the first.character
+ * puts2 - prints every other character
  * @str: pointer
  * Return: nothing
  */
