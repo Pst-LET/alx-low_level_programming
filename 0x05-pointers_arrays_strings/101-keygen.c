@@ -11,14 +11,9 @@ void randompswd(int n)
 {
 	int j;
 	int shuffle;
-	char num[];
-	char pswd[];
-	char alpha[];
-	char sym[];
-	char ALPHA[];
 
 	n = 0;
-	int shuffle = 0;
+
 
 	srand((unsigned int)(time (NULL)));
 	char num[] = "0123456789";
