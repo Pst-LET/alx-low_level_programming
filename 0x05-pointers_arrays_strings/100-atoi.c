@@ -11,8 +11,8 @@ int _atoi(char *s)
 	char tmp;
 
 	tmp = atoi(s);
-	if(*s == '\0')
-		return (0);
-	else 
+	if (*s == '\0')
+	return (0);
+	else
 		return (tmp);
 }
