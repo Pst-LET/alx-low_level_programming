@@ -9,7 +9,14 @@
  */
 void randompswd(int n)
 {
-	int j = 0;
+	int j;
+	int shuffle;
+	char num[];
+	char pswd[];
+	char alpha[];
+	char sym[];
+	char ALPHA[];
+
 	n = 0;
 	int shuffle = 0;
 
