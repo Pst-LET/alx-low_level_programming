@@ -21,7 +21,7 @@ printf("%d and is greater than 5", lastdigit);
 }
 if (lastdigit == 0)
 {
-printf("%d 0 and is", lastdigit);
+printf("%d and is 0", lastdigit);
 }
 if (lastdigit < 6 && lastdigit != 0)
 {
