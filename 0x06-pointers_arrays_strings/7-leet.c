@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * leet - encodes a string
- * @x: pointer 
+ * @k: pointer
  * Return: result
  */
 char *leet(char *k)
@@ -11,7 +11,7 @@ char *leet(char *k)
 	int b;
 
 	char en[5] = {'A', 'E', 'O', 'T', 'L'};
-	char encd[5] ={'4', '3', '0', '7', '1'};
+	char encd[5] = {'4', '3', '0', '7', '1'};
 
 	while (k[a])
 	{
