@@ -20,10 +20,10 @@ int main(void)
 			if (num != 56 || i != 57)
 			{
 				putchar(',');
-				putchar(32);
 			}
 		}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
