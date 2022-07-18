@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strpbrk - searches for a string 
+ * _strpbrk - searches for a string
  * @s: pointer
  * @accept: pointer
  * Return: pointer to the bytes in accepte or NULL if no such byte is found
