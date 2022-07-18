@@ -9,6 +9,7 @@
 char *_strchr(char *s, char c)
 {
 	int a;
+
 	while (1)
 	{ a = *s++;
 		if (a == c)
