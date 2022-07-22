@@ -4,7 +4,7 @@
 /**
 * main - prints the minimum number of coins to change for amount
 * @argc: count
-* @argv: array 
+* @argv: array
 * Return: 1 for error,  0 for success
 */
 int main(int argc, char *argv[])
