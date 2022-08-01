@@ -22,7 +22,7 @@ int _strlen(char *str)
 }
 
 /**
- * _strcopy - Copies a string 
+ * _strcopy - Copies a string
  * @dest: destination
  * @src: source
  *
