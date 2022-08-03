@@ -3,11 +3,11 @@
 
 /**
  * f - prints name
- * @name: name
+ * @n: name
  */
-void f(char *name)
+void f(char *n)
 {
-	printf("%s\n", name);
+	printf("%s\n", n);
 
 }
 /**
