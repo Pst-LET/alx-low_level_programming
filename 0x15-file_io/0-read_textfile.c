@@ -21,7 +21,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	buf = malloc(sizeof(char) * letters);
 	if (buf == NULL)
 	{
-		close (fd);
+		close(fd);
 		return (0);
 	}
 	readlen = read(fd, buf, letters);
@@ -36,5 +36,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (readlen != writelen)
 		return (0);
 	return (writelen);
-		
+
 }
